@@ -8,34 +8,39 @@
 </head>
 <body>
     
-    <div class="topnav" id="myTopnav">
-        <div class="logo">
-            <img src="img/logo_roskilde.png" width="100px" height="100px">
-        </div>
-        <a href="#home" class="active">forside</a>
-        <a href="#">Biler til salg</a>
-        <a href="#">Galleri</a>
-        <a href="#">Om Os</a>
-        <a href="#">kontakt</a>
-        <!-- Hamburger menu ikon + java funktion -->
-        <a href="javascript:void(0);" 
-        class="icon" 
-        onclick="myFunction()">
-        <i class="fa fa-list" aria-hidden="true"></i>
-        </a>
+  <div class="topnav"></div>
+
+  <div class="infoConcener">
+
+    <div class="infoTekst">
+      <p>
+        Kvalitet behøver ikke sprænge
+        budgettet - Roskilde  AutoCenter,
+        din kilde til billige brugte biler!
+      </p>
+    </div>
+    
+    <div class="infoKnap">
+      <a href="#">kom i gang!</a>
     </div>
 
-    <!-- JAVA SCRIPT til BurgerMenu -->
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-    </script>
+  </div>
+
+  <div class="valgConcener"> 
+    <div class="valgtekst">
+      <p> lær at finde en bil til din Smag & Budgettet</p>
+    </div>
+    
+    <div class="benzinValg">Benzinbiler</div>
+    <div class="elbilValg">Elbiler</div>
+    <div class="diselValg">Diselbiler</div>
+    <div class="sportValg">Sportbiler</div>
+
+
+  </div>
+  <div class="kontaktform"> kontakt for </div>
+  <div class="footer">footer</div>
+  
     
 </body>
 </html>
