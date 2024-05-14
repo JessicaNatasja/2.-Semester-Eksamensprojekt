@@ -1,0 +1,68 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  /*vores valg af font til Hjemmesiden */
+ 
+}
+
+/*buger menu*/
+.topnav {
+  overflow: hidden;
+  background-color: #7e7e7e;
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+.topnav a:hover {
+  background-color: #2f2121;
+  color: rgb(255, 206, 80);
+}
+  
+.topnav a.active {
+  background-color: #7b7b7b;
+  color: rgb(255, 255, 255);
+}
+  
+.topnav .icon {
+  display: none;
+}
+
+  
+
+@media screen and (max-width:600px) {
+  .topnav .icon {
+    display:block;
+    font-size: 100px;       
+  }
+  .topnav a {
+    display:none;
+  }
+  .responsive a {
+    display:block;
+    font-size: 1rem;
+  }
+  .responsive {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .responsive .icon {
+    position:absolute;
+    top:0;
+    right:0;
+    color: #ffffff;
+  }
+}
