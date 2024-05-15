@@ -75,6 +75,13 @@ body{
 
 /* om os siden / kontakside */
 
+/* om os*/
+
+
+.omos p {
+  margin: 2%;
+  padding: 5%;
+}
 
 
 @media screen and (max-width: 600px) {
