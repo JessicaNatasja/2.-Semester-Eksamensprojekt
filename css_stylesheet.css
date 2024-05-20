@@ -82,14 +82,40 @@ body{
   display: block;
 }
 
-/* om os siden / kontakside */
-
-.header{
+/* forside */
+.headerforside{
   position: relative;
   text-align: center;
   color: white;
 }
-.headerText {
+.headerTextforside {
+  font-size: x-large;
+  position: absolute;
+  top: 15%;
+}
+
+.forsidecontainer{
+  background-image: linear-gradient(120deg, black, rgb(255,214,0))
+}
+
+.forsidecontainer p {
+  margin: 5% 0 0 5%;
+}
+
+.forsidecontainer h1 {
+  margin: 5% 0 0 5%;
+}
+
+
+/* om os siden / kontakside;
+ */
+
+.headerkontakt{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.headerTextkontakt {
   font-size: xx-large;
   position: absolute;
   top: 20%;
@@ -118,19 +144,19 @@ body{
   box-shadow: 0 5px #ffffff;
   transform: translateY(4px);
 }
-.imgContainer{
-  display: flex;
-}
 
 /* om os  */
 
 .omos p {
   margin: 10%;
 }
+.imgContainer{
+  display: flex;
+}
 
 /* billeder om os  */
 
-.container {
+.containerperson {
   position: relative;
   width: 430;
 }
@@ -151,7 +177,7 @@ body{
   transition: .7s ease;
   background-color: rgb(255,214,0);
 }
-.container:hover .overlay {
+.containerperson:hover .overlay {
   opacity: 1;
 }
 .text {
@@ -197,7 +223,7 @@ body{
 }
 
 /* kontaktformular */
-.container {
+.kontaktcontainer {
   width: 100;
   border-radius: 5px;
   background-color: #ffffff;
