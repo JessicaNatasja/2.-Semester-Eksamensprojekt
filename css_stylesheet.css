@@ -9,9 +9,13 @@ body{
   
 }
 
-/* Top navigation rgb(225, 149, 26);
-                  rgb(255,214,0)  ny farve*/
+/* farver 
+rgb(255,214,0) 
+sort
+hvid
+*/
 
+/* Top navigation*/
 .topnav {
   background-color: black;
   overflow: hidden;
@@ -28,7 +32,7 @@ body{
   font-weight: bold;
 }
 .topnav a.active {
-  background-color:  rgb(255,214,0);
+  background-color: black;
   color: black;
   float: left;
 }
@@ -37,7 +41,6 @@ body{
 }
 
 /* Top navigation dropdown menu */
-
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(255,214,0);
   color: rgb(0, 0, 0);
@@ -82,119 +85,7 @@ body{
   display: block;
 }
 
-/* forside */
-.headerforside{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.headerTextforside {
-  font-size: x-large;
-  position: absolute;
-  top: 15%;
-}
-
-.forsidecontainer{
-  background-image: linear-gradient(120deg, black, rgb(255,214,0))
-}
-
-.forsidecontainer p {
-  margin: 5% 0 0 5%;
-}
-
-.forsidecontainer h1 {
-  margin: 5% 0 0 5%;
-}
-
-
-/* om os siden / kontakside;
- */
-
-.headerkontakt{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.headerTextkontakt {
-  font-size: xx-large;
-  position: absolute;
-  top: 20%;
-  left: 7%;
-}
-.button {
-  padding: 10px 10px;
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: black;
-  background-color: rgb(255,214,0);
-  border: none;
-  border-radius: 10px;
-}
-.button:hover {
-  background-color: #fff;
-  color: black;
-}
-.button:active {
-  background-color: #ffffff;
-  color: #fff;
-  box-shadow: 0 5px #ffffff;
-  transform: translateY(4px);
-}
-
-/* om os  */
-
-.omos p {
-  margin: 10%;
-}
-.imgContainer{
-  display: flex;
-}
-
-/* billeder om os  */
-
-.containerperson {
-  position: relative;
-  width: 430;
-}
-.image {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .7s ease;
-  background-color: rgb(255,214,0);
-}
-.containerperson:hover .overlay {
-  opacity: 1;
-}
-.text {
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 /* kontakt os */
-
 .oplysninger  {
   background-color: rgb(255,214,0);
   color: black;
@@ -259,6 +150,114 @@ input[type=submit]:hover {
   padding: 5%;
   font-size: small;
 }
+
+/* knap som bliver brugt på flere sider */
+.button {
+  padding: 10px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: rgb(255,214,0);
+  border: none;
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: #fff;
+  color: black;
+}
+.button:active {
+  background-color: #ffffff;
+  color: #fff;
+  box-shadow: 0 5px #ffffff;
+  transform: translateY(4px);
+}
+
+/* forside */
+.headerforside{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.headerTextforside {
+  font-size: x-large;
+  position: absolute;
+  top: 15%;
+}
+.forsidecontainer{
+  background-image: linear-gradient(120deg, black, rgb(255,214,0))
+}
+.forsidecontainer p {
+  margin: 5% 0 0 5%;
+}
+.forsidecontainer h1 {
+  margin: 5% 0 0 5%;
+}
+
+/* om os siden / kontakside*/
+
+.headerkontakt{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.headerTextkontakt {
+  font-size: xx-large;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+.omos p {
+  margin: 10%;
+}
+.imgContainer{
+  display: flex;
+}
+
+/* billeder af os til om os siden */
+.containerperson {
+  position: relative;
+  width: 430;
+}
+.image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: rgb(255,214,0);
+}
+.containerperson:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
 
 
 
