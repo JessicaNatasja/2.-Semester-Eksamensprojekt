@@ -150,6 +150,13 @@ input[type=submit]:hover {
   padding: 5%;
   font-size: small;
 }
+.footergul{
+  background-color: rgb(255,214,0);
+  color: black;
+  padding: 5%;
+  font-weight: bold;
+  font-size: small;
+}
 
 /* knap som bliver brugt på flere sider */
 .button {
@@ -176,7 +183,7 @@ input[type=submit]:hover {
   transform: translateY(4px);
 }
 
-/* forside */
+/* forside html*/
 .headerforside{
   position: relative;
   text-align: center;
@@ -197,18 +204,17 @@ input[type=submit]:hover {
   margin: 5% 0 0 5%;
 }
 
-/* om os siden / kontakside*/
-
+/* om os siden / kontakside html*/
 .headerkontakt{
   position: relative;
-  text-align: center;
   color: white;
 }
 .headerTextkontakt {
   font-size: xx-large;
   position: absolute;
-  top: 20%;
-  left: 7%;
+  top: 15%;
+  left: 10%;
+  
 }
 .omos p {
   margin: 10%;
@@ -255,10 +261,80 @@ input[type=submit]:hover {
   text-align: center;
 }
 
+/* vær opmærksom på html */
 
+.headeropmærksom{
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 10% 0;
+}
+.headerTextopmærksom {
+  background-color: rgba(0, 0, 0, 0.386);
+  font-size: xx-large;
+  position: absolute;
+  top: 50%;
+  left: 11%;
+}
+.opmærksomcontainer p {
+  margin: 5% ;
+}
+.opmærksomcontainer h1 {
+  background-color:rgb(255,214,0);
+  color: black;
+  position: relative;
+  text-align: center;
+  padding: 5%;
+  margin: 2%;
+}
+.boks{
+  background-color: rgb(255,214,0);
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 8%;
+  margin: 10% 0 10% 0;
+  
+}
 
-
-
+/* Finansering af bil html */
+.headerfinansering{
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 10% 0;
+}
+.headerTextfinansering{
+  background-color: rgba(0, 0, 0, 0.386);
+  font-size: xx-large;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+.finansieringcontainer p {
+  margin: 5% ;
+}
+.finansieringcontainer h1 {
+  background-color:rgb(255,214,0);
+  color: black;
+  position: relative;
+  text-align: center;
+  padding: 5%;
+  margin: 2%;
+}
+.boks1{
+  background-color:white;
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  position: relative;
+  text-align: center;
+  padding: 8%;
+  margin: 10% 0 10% 0;
+  
+}
 
 
 @media screen and (max-width: 600px) {
