@@ -203,6 +203,16 @@ input[type=submit]:hover {
 .forsidecontainer h1 {
   margin: 5% 0 0 5%;
 }
+.tekstInfo h1{
+  color: rgb(255,214,0);
+  position: relative;
+  text-align: center;
+  margin: 5%;
+}
+.tekstInfo p{
+  margin: 5%;
+}
+
 
 /* om os siden / kontakside html*/
 .headerkontakt{
@@ -215,6 +225,9 @@ input[type=submit]:hover {
   top: 15%;
   left: 10%;
   
+}
+.omos{
+  background-image: linear-gradient(100deg, black, rgba(255, 213, 0, 0.685))
 }
 .omos p {
   margin: 5%;
@@ -281,15 +294,13 @@ input[type=submit]:hover {
   margin: 5% ;
 }
 .opmærksomcontainer h1 {
-  background-color:rgb(255,214,0);
-  color: black;
+  color:rgb(255,214,0);
   position: relative;
   text-align: center;
-  padding: 5%;
-  margin: 2%;
+  
 }
 .boks{
-  background-color: rgb(255,214,0);
+  background-color:white;
   color: black;
   font-size: x-large;
   font-weight: bold;
@@ -317,12 +328,10 @@ input[type=submit]:hover {
   margin: 5% ;
 }
 .finansieringcontainer h1 {
-  background-color:rgb(255,214,0);
-  color: black;
+  color:rgb(255,214,0);
   position: relative;
   text-align: center;
-  padding: 5%;
-  margin: 2%;
+  
 }
 .boks1{
   background-color:white;
