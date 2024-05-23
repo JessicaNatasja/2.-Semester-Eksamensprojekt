@@ -213,7 +213,6 @@ input[type=submit]:hover {
   margin: 5%;
 }
 
-
 /* om os siden / kontakside html*/
 .headerkontakt{
   position: relative;
@@ -275,7 +274,6 @@ input[type=submit]:hover {
 }
 
 /* vær opmærksom på html */
-
 .headeropmærksom{
   position: relative;
   text-align: center;
@@ -347,7 +345,7 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 600px) {
-
+  /* Top navigation*/
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -368,6 +366,7 @@ input[type=submit]:hover {
     display: block;
     text-align: left;
   }
+  /* Top navigation dropdown menu */
   .topnav.responsive .dropdown {
     float: none;
   }
@@ -381,8 +380,3 @@ input[type=submit]:hover {
   }
 
 }
-
-
-
-
-
