@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-color: black;
+  background-color: rgb(35,31,32);
   color: white;
   font-family: "poppins";
   
@@ -11,7 +11,7 @@ body{
 
 /* farver 
 rgb(255,214,0) 
-sort
+rgb(35,31,32)
 hvid
 */
 
@@ -42,7 +42,7 @@ hvid
 
 /* Top navigation dropdown menu */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
+  background-color: rgb(35,31,32);
   color: white;
   font-weight: bold;
 }
@@ -184,7 +184,11 @@ input[type=submit]:hover {
 }
 
 /* forside html*/
+.headerforside video{
+  opacity: 0.7;
+}
 .headerforside{
+  
   position: relative;
   text-align: center;
   color: white;
@@ -214,6 +218,9 @@ input[type=submit]:hover {
 }
 
 /* om os siden / kontakside html*/
+.headerkontakt img{
+  opacity: 0.7;
+}
 .headerkontakt{
   position: relative;
   color: white;
@@ -274,6 +281,9 @@ input[type=submit]:hover {
 }
 
 /* vær opmærksom på html */
+.headeropmærksom img{
+  opacity: 0.7;
+}
 .headeropmærksom{
   position: relative;
   text-align: center;
@@ -308,6 +318,9 @@ input[type=submit]:hover {
 }
 
 /* Finansering af bil html */
+.headerfinansering img{
+  opacity: 0.7;
+}
 .headerfinansering{
   position: relative;
   text-align: center;
